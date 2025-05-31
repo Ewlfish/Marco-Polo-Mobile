@@ -1,0 +1,29 @@
+name: new_quest_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  geolocator: ^11.0.0
+  http: ^0.13.6
+  google_maps_webservice: ^0.0.20-nullsafety.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  andriod: true
+  ios: true
+  image_path: "assets/images/appicon.png"
